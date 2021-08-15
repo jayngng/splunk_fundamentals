@@ -1,4 +1,4 @@
- Introduction to Splunk
+# Introduction to Splunk
 + Splunk is described as a solution to aggregate, analyze and extract valuable infomration of machine data from any source. 
 
 + Splunk can be used for **Application Management**, **Operations Management**, **Security** & **Compliance**.
