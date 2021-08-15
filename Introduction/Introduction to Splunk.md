@@ -1,4 +1,4 @@
-# Introduction to Splunk
+ Introduction to Splunk
 + Splunk is described as a solution to aggregate, analyze and extract valuable infomration of machine data from any source. 
 
 + Splunk can be used for **Application Management**, **Operations Management**, **Security** & **Compliance**.
@@ -9,12 +9,12 @@
 + Splunk can swallow any data from almost any source, through both an agent-less and a forwarder approach.
 
 
-![[data_type.png]]
+![data_type](data_type.png)
 
 
 #### Splunk Architecture Overview
 
-![[architecture.png]]
+![architecture](architecture.png)
 
 Splunk architectures consist of:
 + **Forwarder** component:
@@ -59,17 +59,17 @@ Splunk architectures consist of:
 #### Splunk's Search and Reporting App
 + Navigation
 
-![[navigation1.png]]
+![navigation1](navigation1.png)
 
-![[navigation2.png]]
+![navigation2](navigation2.png)
 
 + **Data Summary** will summary data of hosts, sources or sourcetypes.
 
-![[navigation3.png]]
+![navigation3](navigation3.png)
 
 + This is how the **Events** might look like.
 
-![[navigation4.png]]
+![navigation4](navigation4.png)
 
 
 
@@ -83,7 +83,7 @@ SPL provides over 140 commands that allow user to search, correlate, analyze and
 
 Example of SPL:
 
-![[SPL_syntax.png]]
+![SPL_syntax](SPL_syntax.png)
 
 Searches are created based of **five main components**:
 1. **Search term**: where you specify what you are looking for. Search terms contain keywords, phrases, Booleans, etc.
@@ -101,7 +101,7 @@ Searches are created based of **five main components**:
 
 As you notice, there are some search string are automatically colored. The color is based on the synxtax. As the following image:
 
-![[SPL_syntax2.png]]
+![SPL_syntax2](SPL_syntax2.png)
 
 Something else to consider while submitting searches is Splunk's search modes.
 
