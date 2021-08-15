@@ -42,6 +42,8 @@ LISTEN                0                     128                                 
 ```
 + By default, Splunk listens on `localhost`, port `8000`.
 + We can confirm that by navigating to the `http://localhost:8000` using Chrome or any web browser.
+
+
 ![installation](install.png)
 
 + More info of Splunk's installation, please refers to the [link.](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/InstallSplunk)
