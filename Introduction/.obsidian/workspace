@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "f93e9f52b9c61229",
+    "type": "split",
+    "children": [
+      {
+        "id": "22e02e48b5d9328d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Introduction to Splunk.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b40ee3abfaf77196",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e33c23e4a3b870e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f415ba2326f178fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a41cfdf388b0d91a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff0718e9efb40e25",
+    "type": "split",
+    "children": [
+      {
+        "id": "be6b7a412ea3d14c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0127c9cdc0bb33f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Introduction to Splunk.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "22e02e48b5d9328d",
+  "lastOpenFiles": [
+    "Introduction to Splunk.md",
+    "Pasted image 20210815231329.png",
+    "Untitled.md"
+  ]
+}
