@@ -45,7 +45,7 @@ The `sort` command sorts search results by the specified fields.
 
 + The results might looks like this:
 
-![[sort_cmd.png]]
+[image](sort_cmd.png)
 
 <hr>
 
@@ -80,7 +80,7 @@ source=job_listings | where salary > 70000
 
 → Keep results whose `distance` divided by `time` is greater than `100`.
 
-![[where_cmd.png]]
+[image](where_cmd.png)
 
 <br>
 
@@ -129,7 +129,7 @@ source=job_listings | where salary > 70000
 
 <br>
 
-![[dedup.png]]
+[image](dedup.png)
 
 
 ##### **Tips and Tricks**:
@@ -152,7 +152,7 @@ source=job_listings | where salary > 70000
 
 + Following image will best illustrate the concept:
 
-![[head_command.png]]
+[image](head_command.png)
 
 
 + The following command will return the `first` events until it reaches an event, which does **NOT** have an `action` field with the value `startup`.
@@ -204,7 +204,7 @@ sourcetype=access* | transaction JSESSIONID clientip startwith="signon" endwith=
 	 + And filter transactions that took less than 1 second to complete. → `duration > 1`.
 
 
-![[transaction.png]]
+[image](transaction.png)
 
 ##### **Take away concepts**
 + `transaction` arguments (`startwith`, `endwith`) are optional, but some arguments as `clientip`, `JSESSIONID` must be specified to instruct grouping conditions.
@@ -254,7 +254,7 @@ Reporting commands: `top`, `stats`, `chart` and `timechart`.
 
 → Return the top 2 frequent users for each host. 
 
-![[top_command.png]]
+[image](top_command.png)
 
 <hr>
 
@@ -285,7 +285,7 @@ Reporting commands: `top`, `stats`, `chart` and `timechart`.
 
 + The following image will best demonstrate the idea.
 
-![[stats.png]]
+[image](stats.png)
 
 4. `... | top limit=100 referer_domain | stats sum(count) as total`
 
@@ -369,7 +369,7 @@ Reporting commands: `top`, `stats`, `chart` and `timechart`.
 
 + Chart the number of `GET` and `POST` page requests that occurred for each Web server ( host )
 
-![[chart_command.png]]
+[image](chart_command.png)
 
 <br>
 
@@ -397,11 +397,11 @@ Example commands:
 
 + **Tabulated Results:**
 
-![[timechart1.png]]
+[image](timechart1.png)
 
 + **Formatted Timechart:**
 
-![[timechart2.png]]
+[image](timechart2.png)
 
 
 5. `... | timechart per_hour(eval(method="GET")) as Views, per_hour(eval(action="purchase")) as Purchases`
@@ -447,7 +447,7 @@ Example commands:
 
 + Keep only `field1` and `field2` and remove all internal fields, (which begins with an underscore (`_`)). Proceeds with cautions because it might render incorrect results in the future search.
 
-![[field_cmd.png]]
+[image](field_cmd.png)
 
 ##### **Take away**
 + Internal fields i.e. fields start with underscore are unaffected by the `fields` command, unless explicitly specified.
@@ -475,7 +475,7 @@ Examples:
 
 + Change all field values of `127.0.0.1` to `localhost`.
 
-![[replace.png]]
+[image](replace.png)
 
 <br>
 
@@ -496,7 +496,7 @@ Examples:
 
 + Set `sum_of_areas` to be the sum of the areas of two circles.
 
-![[evak.png]]
+[image](evak.png)
 
 <hr>
 
@@ -517,7 +517,7 @@ Example:
 
 + Use `sed` syntax to match the regex to a series of numbers, and replace them with an anonymized string.
 
-![[rex.png]]
+[image](rex.png)
 
 <br>
 
@@ -541,4 +541,4 @@ Examples:
 
 + For a local lookup table that is present only in the search head, look up the value of each event’s `user` field. For entries that match, the value of the lookup table’s `zip` field is written to the event’s `user_zip` field.
 
-![[lookup.png]]
+[image](lookup.png)
